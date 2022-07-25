@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+
+.page1 h1{
+    color: white;
+    width: 100%;
+    font-size: 2.7rem;
+}
+h2{
+font-size: 2.5rem;
+}
+p{
+ font-size: 1.2rem;
+}
+header{
+    height: 10vh;
+    background: white;
+    padding: 1rem 5rem;
+    text-align: center;
+}
+.logo img{
+    height: 4vh;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+li{
+    padding: 0 0.5rem;
+    list-style-type: none;
+}
+li a{
+    font-size: 0.9rem;
+    color: rgb(2, 27, 59);
+}
+.page1-buttons{
+    width: 35vw;
+}
+.nav-button-us{
+    height: 5.5vh;
+    width: 9vw;
+    border: none;
+    background-color: white;
+    color: rgb(2, 27, 59);
+    border-radius: 5px;
+    border: 2px solid rgb(2, 27, 59);
+}
+.page1-buttons-agents{
+    height: 6vh;
+    width: 12vw;
+    border: none;
+    background-color: inherit;
+    color: gold;
+    border-radius: 5px;
+    border: 2px solid gold;
+}
+.page1-buttons-view{
+    height: 6vh;
+    width: 12vw;
+    border: none;
+    background-color: gold;
+    color: black;
+    border-radius: 5px;
+    margin: 2rem 2rem 0 0;
+}
+.nav-button-list{
+    height: 5.5vh;
+    width: 9vw;
+    border: none;
+    background-color: rgb(2, 27, 59);
+    color: white;
+    border-radius: 5px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.page1-span-better{
+    color: gold;
+}
+.page1-content1{
+    font-size: 2.5rem;
+    /* font-weight:lighter; */
+    padding: 0.3rem 0;
+}
+.page1-content2{
+    padding: 1rem 0;
+}
+main{
+    height: 90vh;
+    background-image: url("pictures/lights.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.page1{
+    color: white;
+    padding: 8rem 0 0 15rem;
+    text-align: left;
+    width: 70vw;
+}
+.page1-content{
+    width: 37vw;
+}
+/* SEARCH BAR */
+.search-background{
+    display: flex;
+    justify-content: center;
+}
+.input-box{
+    margin-top: -5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 27vh;
+    width: 70vw;
+    background-color: rgb(2, 46, 71);
+    border-radius: 5px;
+}
+.input-box-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+.select-button-search{
+    height: 6vh;
+    width: 12vw;
+    border: none;
+    background-color: gold;
+    color: black;
+    border-radius: 5px;
+}
+/* PAGE2 */
+.page2{
+    height: 73vh;
+    background-color: white;
+    padding: 2rem;
+}
+input[type=search]{
+    padding: 0 1rem;
+    color: white;
+    height: 5vh;
+    background-color: rgb(0, 20, 46);
+    border-radius: 5px;
+    border: none;
+    width: 20vw
+}select{
+    margin: 0 0.5rem;
+}
+#input-select-box-property{
+    padding: 0 5px;
+    width: 8.3vw;
+    color: white;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 20, 46);
+}
+.page2-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3rem 4rem;
+    height: 73vh;
+}
+.page2-container-text{
+    margin-right: 5rem;
+}
+.page2-container-text h1{
+    font-size: 2.3rem;
+    font-weight: 500;
+    padding: 0 0 1rem 0;
+}
+.page2-container-text p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.page2-container-img-house img{
+    margin: 0 2rem 1rem;
+    height: 23rem;
+    width: 13rem;
+
+}
+.page2-container-img-kitchen img{
+    height: 20rem;
+    width: 30vw;
+    margin-top: 2rem;
+}
+
+/* PAGE3 */
+.page3{
+    height: 45vh;
+    background-color: whitesmoke;
+}
+.page3-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+.page3-head h2{
+    font-weight: 400;
+    font-size: 2rem;
+}
+.page3-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 4rem;
+    text-align: center;
+}
+.page3-container h1{
+    color: rgb(221, 189, 4);
+    font-size: 2.3rem;
+    font-weight: 400;
+    padding: 0 4.5rem
+}
+.page3-container h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+/* PAGE4 */
+.page4{
+    height: 97vh;
+}
+.page4-head h1{
+    font-weight: 400;
+    margin: 1rem 0;
+}
+.page4-head p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.page4-head{
+    margin-left: -35rem;
+}
+.page4-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2rem 0;
+    
+}
+.page4-img-row div{
+    margin: 2.5rem 0.6rem;
+}
+.page4-img-row{
+    display: flex;
+    align-items: center;
+}
+.page4-img-row p{
+    color: rgba(214, 214, 214, 0.966);
+    font-size: 0.8rem;
+    margin: 0.2rem 0 1rem 1rem;
+}
+.page4-img-row h2{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0.7rem 1rem;
+}
+.page4-button-view{
+    height: 5.5vh;
+    width: 9vw;
+    border: none;
+    background-color: rgb(2, 27, 59);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+.page4-img1,
+.page4-img2,
+.page4-img3,
+.page4-img4{
+    height: 55vh;
+    width: 15vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.page4-img1{
+    background-image: url('pictures/room2.jpg');
+}
+.page4-img2{
+    background-image: url('pictures/room.jpg');
+}
+.page4-img3{
+    background-image: url('pictures/room3.jpg');
+}
+.page4-img4{
+    background-image: url('pictures/room4.jpg');
+}
+/* PAGE 5 */
+.page5{
+    height: 70vh;
+    background-color:  rgb(2, 27, 59);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem 0
+}
+.pag54-container{
+    color: white;
+}
+.page5-text h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 2rem;
+}
+.page5-text p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 0.5rem;
+}
+.page5-img{
+    color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+}
+.page5-img h2{
+    margin: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+.page5-img p{
+    /* margin: 0.5rem; */
+    font-size: 1rem;
+    font-weight: 400;
+}
+.page5-img-left,
+.page5-img-right,
+.page5-img-center{
+    margin: 2rem 1rem;
+    border: 1px solid white;
+    height: 25vh;
+    width: 20vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.page5-img-left{
+    background-image: url('pictures/bridgelekki.jpg');
+}
+.page5-img-center{
+    background-image: url('pictures/island.jpg');
+}
+.page5-img-right{
+    background-image: url('pictures/above.jpg');
+}
+.page5-button-explore{
+    height: 6vh;
+    width: 15vw;
+    border: none;
+    background-color: gold;
+    color: black;
+    font-size: 0.7rem;
+    border-radius: 5px;
+}
+/* LAST-PAGE */
+.last-page{
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 5rem 0 */
+}
+.last-page-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last-img{
+    height: 40vh;
+    width: 30vw;
+    background-image: url('pictures/modern.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem  0;
+}
+.last-img i{
+    font-size: 2rem;
+    color: white;
+}
+.last-img-text{
+    font-size: 0.8rem;
+    line-height: 1.5;
+    background-color: lightgrey;
+    height: 17vh;
+    width: 30vw;
+    padding: 0.5rem;
+}
+.last-center{
+    font-size: 2rem;
+    color: lightgrey;
+    margin: 2rem;
+}
+.last-right h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+.last-right p{
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 1rem 0 2rem;
+}
+.last-page-blog{
+    height: 5.5vh;
+    width: 9vw;
+    border: 1px solid rgb(2, 27, 59);
+    color: rgb(2, 27, 59);
+    background-color: white;
+    /* box-shadow: 0 3px 10px 0; */
+    border-radius: 5px;    
+}
